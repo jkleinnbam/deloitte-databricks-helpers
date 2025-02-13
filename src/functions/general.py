@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from pyspark.sql import functions as F
 
-def dropDupeCols(df):
+def drop_dupe_cols(df):
     newcols = []
     dupcols = []
 
